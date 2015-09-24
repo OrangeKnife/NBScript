@@ -1,0 +1,179 @@
+ 
+func factorial(a)
+	if(a > 1)
+	then
+		return a * factorial(a-1);
+	else
+		return 1;
+	end
+end
+ 
+
+func main()
+var vec;
+var vec2;
+var tempVar;
+var a;var b;var c;
+a = b = c= "str";
+a = (1-1);
+//vec = [4.1,2,1,0,5,3,1,12,8,9,[123,["hahaha",123,["gogogo"]],32,123,41.231]];
+vec = [ 5,4.4,1.01,5.4,3,1,12,8,9,2];
+vec2 = [ 5,4.4,1.01,5.4,3,1,12,8,9,2];
+print( " factorial(7) = ", factorial(7));
+
+print("str combination: str1 " + "str2");
+
+vec[1] = square(vec[1]);//c function
+print(vec[1]);
+tempVar = IntToStr(521);//c function
+print(tempVar);
+
+CopyArray(vec,vec2,10);
+print("merge sort: vec=",BottomUpSort(vec,vec2,10));
+print("quick sort: vec2=",quickSort(vec2,0,9));
+end
+
+func CopyArray(A, B, n)
+var i;
+i = 0;
+while i < n
+do
+	A[i] = B[i];
+	i = i + 1;
+end
+return;
+end
+
+func min(a,b)
+if a < b
+then
+	return a;
+end
+return b;
+end
+
+func BottomUpSort(A, B, n)
+ 
+  var width;
+  var i;
+ 
+  width = 1;
+  while width < n 
+  do
+    i = 0;
+	while i < n
+	do
+		BottomUpMerge(A, i, min(i+width, n), min(i+2*width, n), B);
+		CopyArray(A, B, n);
+		i = i + 2 * width;
+	end
+  width = 2 * width;
+  end
+  return A;
+end
+ 
+
+func BottomUpMerge(A,iLeft,iRight,iEnd,B)
+ 
+  var i0;
+  var i1;
+  var j;
+  i0 = iLeft;
+  i1 = iRight;
+
+  j = iLeft;
+   while j < iEnd
+   do
+
+   if(i1 < iEnd)
+   then
+	if (i0 < iRight && A[i0] <= A[i1])
+	  then
+          B[j] = A[i0];
+          i0 = i0 + 1;
+      else 
+          B[j] = A[i1];
+          i1 = i1 + 1;
+      end
+   else
+		 B[j] = A[i0];
+         i0 = i0 + 1;
+   end
+
+	
+	j = j + 1;
+   end
+   return;
+ end
+ 
+
+ 
+
+func quickSort(array, left, right)
+var temp;
+var p;
+var i;
+var j;
+temp = array[left];
+p = left;
+i = left;
+j = right;
+
+
+while i <= j
+do
+	while array[j] >= temp 
+	do
+		j = j - 1; 
+
+		if j < p
+		then
+			break;
+		end
+	end
+
+	if j >= p
+	then
+		array[p] = array[j];
+		p = j;
+	end
+
+	while array[i] <= temp
+	do
+		i = i + 1;
+
+		if i > p
+		then
+			break;
+		end
+	end
+
+	if i <= p
+	then
+		array[p] = array[i];
+		p = i;
+	end
+	
+end
+array[p] = temp;
+
+if (p - left) > 1
+then
+	quickSort(array,left,p-1);
+end
+
+if (right - p) > 1
+then
+	quickSort(array,p+1,right);
+end
+
+return array;
+end
+ 
+ 
+
+
+
+
+
+

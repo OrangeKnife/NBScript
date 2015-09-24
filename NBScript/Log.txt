@@ -1,0 +1,1584 @@
+
+------------analyze tokens------------
+Line: 2, token: func
+Line: 2, token: factorial
+Line: 2, token: (
+Line: 2, token: a
+Line: 2, token: )
+Line: 3, token: if
+Line: 3, token: (
+Line: 3, token: a
+Line: 3, token: >
+Line: 3, token: 1
+Line: 3, token: )
+Line: 4, token: then
+Line: 5, token: return
+Line: 5, token: a
+Line: 5, token: *
+Line: 5, token: factorial
+Line: 5, token: (
+Line: 5, token: a
+Line: 5, token: -
+Line: 5, token: 1
+Line: 5, token: )
+Line: 5, token: ;
+Line: 6, token: else
+Line: 7, token: return
+Line: 7, token: 1
+Line: 7, token: ;
+Line: 8, token: end
+Line: 9, token: end
+Line: 12, token: func
+Line: 12, token: main
+Line: 12, token: (
+Line: 12, token: )
+Line: 13, token: var
+Line: 13, token: vec
+Line: 13, token: ;
+Line: 14, token: var
+Line: 14, token: vec2
+Line: 14, token: ;
+Line: 15, token: var
+Line: 15, token: tempVar
+Line: 15, token: ;
+Line: 16, token: var
+Line: 16, token: a
+Line: 16, token: ;
+Line: 16, token: var
+Line: 16, token: b
+Line: 16, token: ;
+Line: 16, token: var
+Line: 16, token: c
+Line: 16, token: ;
+Line: 17, token: a
+Line: 17, token: =
+Line: 17, token: b
+Line: 17, token: =
+Line: 17, token: c
+Line: 17, token: =
+Line: 17, token: str
+Line: 17, token: ;
+Line: 18, token: a
+Line: 18, token: =
+Line: 18, token: (
+Line: 18, token: 1
+Line: 18, token: -
+Line: 18, token: 1
+Line: 18, token: )
+Line: 18, token: ;
+Line: 19, token: vec
+Line: 19, token: =
+Line: 19, token: [
+Line: 19, token: 5
+Line: 19, token: ,
+Line: 19, token: 4.4
+Line: 19, token: ,
+Line: 19, token: 1.01
+Line: 19, token: ,
+Line: 19, token: 5.4
+Line: 19, token: ,
+Line: 19, token: 3
+Line: 19, token: ,
+Line: 19, token: 1
+Line: 19, token: ,
+Line: 19, token: 12
+Line: 19, token: ,
+Line: 19, token: 8
+Line: 19, token: ,
+Line: 19, token: 9
+Line: 19, token: ,
+Line: 19, token: 2
+Line: 19, token: ]
+Line: 19, token: ;
+Line: 20, token: vec2
+Line: 20, token: =
+Line: 20, token: [
+Line: 20, token: 5
+Line: 20, token: ,
+Line: 20, token: 4.4
+Line: 20, token: ,
+Line: 20, token: 1.01
+Line: 20, token: ,
+Line: 20, token: 5.4
+Line: 20, token: ,
+Line: 20, token: 3
+Line: 20, token: ,
+Line: 20, token: 1
+Line: 20, token: ,
+Line: 20, token: 12
+Line: 20, token: ,
+Line: 20, token: 8
+Line: 20, token: ,
+Line: 20, token: 9
+Line: 20, token: ,
+Line: 20, token: 2
+Line: 20, token: ]
+Line: 20, token: ;
+Line: 21, token: print
+Line: 21, token: (
+Line: 21, token:  factorial(7) = 
+Line: 21, token: ,
+Line: 21, token: factorial
+Line: 21, token: (
+Line: 21, token: 7
+Line: 21, token: )
+Line: 21, token: )
+Line: 21, token: ;
+Line: 23, token: print
+Line: 23, token: (
+Line: 23, token: str combination: str1 
+Line: 23, token: +
+Line: 23, token: str2
+Line: 23, token: )
+Line: 23, token: ;
+Line: 25, token: vec
+Line: 25, token: [
+Line: 25, token: 1
+Line: 25, token: ]
+Line: 25, token: =
+Line: 25, token: square
+Line: 25, token: (
+Line: 25, token: vec
+Line: 25, token: [
+Line: 25, token: 1
+Line: 25, token: ]
+Line: 25, token: )
+Line: 25, token: ;
+Line: 25, token: print
+Line: 25, token: (
+Line: 25, token: vec
+Line: 25, token: [
+Line: 25, token: 1
+Line: 25, token: ]
+Line: 25, token: )
+Line: 25, token: ;
+Line: 26, token: tempVar
+Line: 26, token: =
+Line: 26, token: IntToStr
+Line: 26, token: (
+Line: 26, token: 521
+Line: 26, token: )
+Line: 26, token: ;
+Line: 26, token: print
+Line: 26, token: (
+Line: 26, token: tempVar
+Line: 26, token: )
+Line: 26, token: ;
+Line: 28, token: CopyArray
+Line: 28, token: (
+Line: 28, token: vec
+Line: 28, token: ,
+Line: 28, token: vec2
+Line: 28, token: ,
+Line: 28, token: 10
+Line: 28, token: )
+Line: 28, token: ;
+Line: 29, token: print
+Line: 29, token: (
+Line: 29, token: merge sort: vec=
+Line: 29, token: ,
+Line: 29, token: BottomUpSort
+Line: 29, token: (
+Line: 29, token: vec
+Line: 29, token: ,
+Line: 29, token: vec2
+Line: 29, token: ,
+Line: 29, token: 10
+Line: 29, token: )
+Line: 29, token: )
+Line: 29, token: ;
+Line: 30, token: print
+Line: 30, token: (
+Line: 30, token: quick sort: vec2=
+Line: 30, token: ,
+Line: 30, token: quickSort
+Line: 30, token: (
+Line: 30, token: vec2
+Line: 30, token: ,
+Line: 30, token: 0
+Line: 30, token: ,
+Line: 30, token: 9
+Line: 30, token: )
+Line: 30, token: )
+Line: 30, token: ;
+Line: 31, token: end
+Line: 33, token: func
+Line: 33, token: CopyArray
+Line: 33, token: (
+Line: 33, token: A
+Line: 33, token: ,
+Line: 33, token: B
+Line: 33, token: ,
+Line: 33, token: n
+Line: 33, token: )
+Line: 34, token: var
+Line: 34, token: i
+Line: 34, token: ;
+Line: 35, token: i
+Line: 35, token: =
+Line: 35, token: 0
+Line: 35, token: ;
+Line: 36, token: while
+Line: 36, token: i
+Line: 36, token: <
+Line: 36, token: n
+Line: 37, token: do
+Line: 38, token: A
+Line: 38, token: [
+Line: 38, token: i
+Line: 38, token: ]
+Line: 38, token: =
+Line: 38, token: B
+Line: 38, token: [
+Line: 38, token: i
+Line: 38, token: ]
+Line: 38, token: ;
+Line: 39, token: i
+Line: 39, token: =
+Line: 39, token: i
+Line: 39, token: +
+Line: 39, token: 1
+Line: 39, token: ;
+Line: 40, token: end
+Line: 41, token: return
+Line: 41, token: ;
+Line: 42, token: end
+Line: 44, token: func
+Line: 44, token: min
+Line: 44, token: (
+Line: 44, token: a
+Line: 44, token: ,
+Line: 44, token: b
+Line: 44, token: )
+Line: 45, token: if
+Line: 45, token: a
+Line: 45, token: <
+Line: 45, token: b
+Line: 46, token: then
+Line: 47, token: return
+Line: 47, token: a
+Line: 47, token: ;
+Line: 48, token: end
+Line: 49, token: return
+Line: 49, token: b
+Line: 49, token: ;
+Line: 50, token: end
+Line: 52, token: func
+Line: 52, token: BottomUpSort
+Line: 52, token: (
+Line: 52, token: A
+Line: 52, token: ,
+Line: 52, token: B
+Line: 52, token: ,
+Line: 52, token: n
+Line: 52, token: )
+Line: 54, token: var
+Line: 54, token: width
+Line: 54, token: ;
+Line: 55, token: var
+Line: 55, token: i
+Line: 55, token: ;
+Line: 57, token: width
+Line: 57, token: =
+Line: 57, token: 1
+Line: 57, token: ;
+Line: 58, token: while
+Line: 58, token: width
+Line: 58, token: <
+Line: 58, token: n
+Line: 59, token: do
+Line: 60, token: i
+Line: 60, token: =
+Line: 60, token: 0
+Line: 60, token: ;
+Line: 61, token: while
+Line: 61, token: i
+Line: 61, token: <
+Line: 61, token: n
+Line: 62, token: do
+Line: 63, token: BottomUpMerge
+Line: 63, token: (
+Line: 63, token: A
+Line: 63, token: ,
+Line: 63, token: i
+Line: 63, token: ,
+Line: 63, token: min
+Line: 63, token: (
+Line: 63, token: i
+Line: 63, token: +
+Line: 63, token: width
+Line: 63, token: ,
+Line: 63, token: n
+Line: 63, token: )
+Line: 63, token: ,
+Line: 63, token: min
+Line: 63, token: (
+Line: 63, token: i
+Line: 63, token: +
+Line: 63, token: 2
+Line: 63, token: *
+Line: 63, token: width
+Line: 63, token: ,
+Line: 63, token: n
+Line: 63, token: )
+Line: 63, token: ,
+Line: 63, token: B
+Line: 63, token: )
+Line: 63, token: ;
+Line: 64, token: CopyArray
+Line: 64, token: (
+Line: 64, token: A
+Line: 64, token: ,
+Line: 64, token: B
+Line: 64, token: ,
+Line: 64, token: n
+Line: 64, token: )
+Line: 64, token: ;
+Line: 65, token: i
+Line: 65, token: =
+Line: 65, token: i
+Line: 65, token: +
+Line: 65, token: 2
+Line: 65, token: *
+Line: 65, token: width
+Line: 65, token: ;
+Line: 66, token: end
+Line: 67, token: width
+Line: 67, token: =
+Line: 67, token: 2
+Line: 67, token: *
+Line: 67, token: width
+Line: 67, token: ;
+Line: 68, token: end
+Line: 69, token: return
+Line: 69, token: A
+Line: 69, token: ;
+Line: 70, token: end
+Line: 73, token: func
+Line: 73, token: BottomUpMerge
+Line: 73, token: (
+Line: 73, token: A
+Line: 73, token: ,
+Line: 73, token: iLeft
+Line: 73, token: ,
+Line: 73, token: iRight
+Line: 73, token: ,
+Line: 73, token: iEnd
+Line: 73, token: ,
+Line: 73, token: B
+Line: 73, token: )
+Line: 75, token: var
+Line: 75, token: i0
+Line: 75, token: ;
+Line: 76, token: var
+Line: 76, token: i1
+Line: 76, token: ;
+Line: 77, token: var
+Line: 77, token: j
+Line: 77, token: ;
+Line: 78, token: i0
+Line: 78, token: =
+Line: 78, token: iLeft
+Line: 78, token: ;
+Line: 79, token: i1
+Line: 79, token: =
+Line: 79, token: iRight
+Line: 79, token: ;
+Line: 81, token: j
+Line: 81, token: =
+Line: 81, token: iLeft
+Line: 81, token: ;
+Line: 82, token: while
+Line: 82, token: j
+Line: 82, token: <
+Line: 82, token: iEnd
+Line: 83, token: do
+Line: 85, token: if
+Line: 85, token: (
+Line: 85, token: i1
+Line: 85, token: <
+Line: 85, token: iEnd
+Line: 85, token: )
+Line: 86, token: then
+Line: 87, token: if
+Line: 87, token: (
+Line: 87, token: i0
+Line: 87, token: <
+Line: 87, token: iRight
+Line: 87, token: &&
+Line: 87, token: A
+Line: 87, token: [
+Line: 87, token: i0
+Line: 87, token: ]
+Line: 87, token: <=
+Line: 87, token: A
+Line: 87, token: [
+Line: 87, token: i1
+Line: 87, token: ]
+Line: 87, token: )
+Line: 88, token: then
+Line: 89, token: B
+Line: 89, token: [
+Line: 89, token: j
+Line: 89, token: ]
+Line: 89, token: =
+Line: 89, token: A
+Line: 89, token: [
+Line: 89, token: i0
+Line: 89, token: ]
+Line: 89, token: ;
+Line: 90, token: i0
+Line: 90, token: =
+Line: 90, token: i0
+Line: 90, token: +
+Line: 90, token: 1
+Line: 90, token: ;
+Line: 91, token: else
+Line: 92, token: B
+Line: 92, token: [
+Line: 92, token: j
+Line: 92, token: ]
+Line: 92, token: =
+Line: 92, token: A
+Line: 92, token: [
+Line: 92, token: i1
+Line: 92, token: ]
+Line: 92, token: ;
+Line: 93, token: i1
+Line: 93, token: =
+Line: 93, token: i1
+Line: 93, token: +
+Line: 93, token: 1
+Line: 93, token: ;
+Line: 94, token: end
+Line: 95, token: else
+Line: 96, token: B
+Line: 96, token: [
+Line: 96, token: j
+Line: 96, token: ]
+Line: 96, token: =
+Line: 96, token: A
+Line: 96, token: [
+Line: 96, token: i0
+Line: 96, token: ]
+Line: 96, token: ;
+Line: 97, token: i0
+Line: 97, token: =
+Line: 97, token: i0
+Line: 97, token: +
+Line: 97, token: 1
+Line: 97, token: ;
+Line: 98, token: end
+Line: 101, token: j
+Line: 101, token: =
+Line: 101, token: j
+Line: 101, token: +
+Line: 101, token: 1
+Line: 101, token: ;
+Line: 102, token: end
+Line: 103, token: return
+Line: 103, token: ;
+Line: 104, token: end
+Line: 109, token: func
+Line: 109, token: quickSort
+Line: 109, token: (
+Line: 109, token: array
+Line: 109, token: ,
+Line: 109, token: left
+Line: 109, token: ,
+Line: 109, token: right
+Line: 109, token: )
+Line: 110, token: var
+Line: 110, token: temp
+Line: 110, token: ;
+Line: 111, token: var
+Line: 111, token: p
+Line: 111, token: ;
+Line: 112, token: var
+Line: 112, token: i
+Line: 112, token: ;
+Line: 113, token: var
+Line: 113, token: j
+Line: 113, token: ;
+Line: 114, token: temp
+Line: 114, token: =
+Line: 114, token: array
+Line: 114, token: [
+Line: 114, token: left
+Line: 114, token: ]
+Line: 114, token: ;
+Line: 115, token: p
+Line: 115, token: =
+Line: 115, token: left
+Line: 115, token: ;
+Line: 116, token: i
+Line: 116, token: =
+Line: 116, token: left
+Line: 116, token: ;
+Line: 117, token: j
+Line: 117, token: =
+Line: 117, token: right
+Line: 117, token: ;
+Line: 120, token: while
+Line: 120, token: i
+Line: 120, token: <=
+Line: 120, token: j
+Line: 121, token: do
+Line: 122, token: while
+Line: 122, token: array
+Line: 122, token: [
+Line: 122, token: j
+Line: 122, token: ]
+Line: 122, token: >=
+Line: 122, token: temp
+Line: 123, token: do
+Line: 124, token: j
+Line: 124, token: =
+Line: 124, token: j
+Line: 124, token: -
+Line: 124, token: 1
+Line: 124, token: ;
+Line: 126, token: if
+Line: 126, token: j
+Line: 126, token: <
+Line: 126, token: p
+Line: 127, token: then
+Line: 128, token: break
+Line: 128, token: ;
+Line: 129, token: end
+Line: 130, token: end
+Line: 132, token: if
+Line: 132, token: j
+Line: 132, token: >=
+Line: 132, token: p
+Line: 133, token: then
+Line: 134, token: array
+Line: 134, token: [
+Line: 134, token: p
+Line: 134, token: ]
+Line: 134, token: =
+Line: 134, token: array
+Line: 134, token: [
+Line: 134, token: j
+Line: 134, token: ]
+Line: 134, token: ;
+Line: 135, token: p
+Line: 135, token: =
+Line: 135, token: j
+Line: 135, token: ;
+Line: 136, token: end
+Line: 138, token: while
+Line: 138, token: array
+Line: 138, token: [
+Line: 138, token: i
+Line: 138, token: ]
+Line: 138, token: <=
+Line: 138, token: temp
+Line: 139, token: do
+Line: 140, token: i
+Line: 140, token: =
+Line: 140, token: i
+Line: 140, token: +
+Line: 140, token: 1
+Line: 140, token: ;
+Line: 142, token: if
+Line: 142, token: i
+Line: 142, token: >
+Line: 142, token: p
+Line: 143, token: then
+Line: 144, token: break
+Line: 144, token: ;
+Line: 145, token: end
+Line: 146, token: end
+Line: 148, token: if
+Line: 148, token: i
+Line: 148, token: <=
+Line: 148, token: p
+Line: 149, token: then
+Line: 150, token: array
+Line: 150, token: [
+Line: 150, token: p
+Line: 150, token: ]
+Line: 150, token: =
+Line: 150, token: array
+Line: 150, token: [
+Line: 150, token: i
+Line: 150, token: ]
+Line: 150, token: ;
+Line: 151, token: p
+Line: 151, token: =
+Line: 151, token: i
+Line: 151, token: ;
+Line: 152, token: end
+Line: 154, token: end
+Line: 155, token: array
+Line: 155, token: [
+Line: 155, token: p
+Line: 155, token: ]
+Line: 155, token: =
+Line: 155, token: temp
+Line: 155, token: ;
+Line: 157, token: if
+Line: 157, token: (
+Line: 157, token: p
+Line: 157, token: -
+Line: 157, token: left
+Line: 157, token: )
+Line: 157, token: >
+Line: 157, token: 1
+Line: 158, token: then
+Line: 159, token: quickSort
+Line: 159, token: (
+Line: 159, token: array
+Line: 159, token: ,
+Line: 159, token: left
+Line: 159, token: ,
+Line: 159, token: p
+Line: 159, token: -
+Line: 159, token: 1
+Line: 159, token: )
+Line: 159, token: ;
+Line: 160, token: end
+Line: 162, token: if
+Line: 162, token: (
+Line: 162, token: right
+Line: 162, token: -
+Line: 162, token: p
+Line: 162, token: )
+Line: 162, token: >
+Line: 162, token: 1
+Line: 163, token: then
+Line: 164, token: quickSort
+Line: 164, token: (
+Line: 164, token: array
+Line: 164, token: ,
+Line: 164, token: p
+Line: 164, token: +
+Line: 164, token: 1
+Line: 164, token: ,
+Line: 164, token: right
+Line: 164, token: )
+Line: 164, token: ;
+Line: 165, token: end
+Line: 167, token: return
+Line: 167, token: array
+Line: 167, token: ;
+Line: 168, token: end
+
+-----------------tree------------------
+root -> func -> factorial
+          |
+          para -> a
+          |
+          if -> > -> a
+                    |
+                    1
+               |
+               then -> return -> * -> a
+                              |
+                              call -> factorial
+                                   |
+                                   - -> a
+                                        |
+                                        1
+               |
+               return -> 1
+     |
+     func -> main
+          |
+          para
+          |
+          var -> vec
+          |
+          var -> vec2
+          |
+          var -> tempVar
+          |
+          var -> a
+          |
+          var -> b
+          |
+          var -> c
+          |
+          pop -> = -> a
+                    |
+                    = -> b
+                         |
+                         = -> c
+                              |
+                              str
+          |
+          pop -> = -> a
+                    |
+                    - -> 1
+                         |
+                         1
+          |
+          pop -> = -> vec
+                    |
+                    vector -> 5
+                         |
+                         4.400000
+                         |
+                         1.010000
+                         |
+                         5.400000
+                         |
+                         3
+                         |
+                         1
+                         |
+                         12
+                         |
+                         8
+                         |
+                         9
+                         |
+                         2
+          |
+          pop -> = -> vec2
+                    |
+                    vector -> 5
+                         |
+                         4.400000
+                         |
+                         1.010000
+                         |
+                         5.400000
+                         |
+                         3
+                         |
+                         1
+                         |
+                         12
+                         |
+                         8
+                         |
+                         9
+                         |
+                         2
+          |
+          pop -> native call -> print
+                    |
+                     factorial(7) = 
+                    |
+                    call -> factorial
+                         |
+                         7
+          |
+          pop -> native call -> print
+                    |
+                    + -> str combination: str1 
+                         |
+                         str2
+          |
+          pop -> = -> [ -> vec
+                         |
+                         1
+                    |
+                    native call -> square
+                         |
+                         [ -> vec
+                              |
+                              1
+          |
+          pop -> native call -> print
+                    |
+                    [ -> vec
+                         |
+                         1
+          |
+          pop -> = -> tempVar
+                    |
+                    native call -> IntToStr
+                         |
+                         521
+          |
+          pop -> native call -> print
+                    |
+                    tempVar
+          |
+          pop -> call -> CopyArray
+                    |
+                    vec
+                    |
+                    vec2
+                    |
+                    10
+          |
+          pop -> native call -> print
+                    |
+                    merge sort: vec=
+                    |
+                    call -> BottomUpSort
+                         |
+                         vec
+                         |
+                         vec2
+                         |
+                         10
+          |
+          pop -> native call -> print
+                    |
+                    quick sort: vec2=
+                    |
+                    call -> quickSort
+                         |
+                         vec2
+                         |
+                         0
+                         |
+                         9
+     |
+     func -> CopyArray
+          |
+          para -> A
+               |
+               B
+               |
+               n
+          |
+          var -> i
+          |
+          pop -> = -> i
+                    |
+                    0
+          |
+          while -> < -> i
+                    |
+                    n
+               |
+               pop -> = -> [ -> A
+                              |
+                              i
+                         |
+                         [ -> B
+                              |
+                              i
+               |
+               pop -> = -> i
+                         |
+                         + -> i
+                              |
+                              1
+          |
+          return
+     |
+     func -> min
+          |
+          para -> a
+               |
+               b
+          |
+          if -> < -> a
+                    |
+                    b
+               |
+               then -> return -> a
+          |
+          return -> b
+     |
+     func -> BottomUpSort
+          |
+          para -> A
+               |
+               B
+               |
+               n
+          |
+          var -> width
+          |
+          var -> i
+          |
+          pop -> = -> width
+                    |
+                    1
+          |
+          while -> < -> width
+                    |
+                    n
+               |
+               pop -> = -> i
+                         |
+                         0
+               |
+               while -> < -> i
+                         |
+                         n
+                    |
+                    pop -> call -> BottomUpMerge
+                              |
+                              A
+                              |
+                              i
+                              |
+                              call -> min
+                                   |
+                                   + -> i
+                                        |
+                                        width
+                                   |
+                                   n
+                              |
+                              call -> min
+                                   |
+                                   + -> i
+                                        |
+                                        * -> 2
+                                             |
+                                             width
+                                   |
+                                   n
+                              |
+                              B
+                    |
+                    pop -> call -> CopyArray
+                              |
+                              A
+                              |
+                              B
+                              |
+                              n
+                    |
+                    pop -> = -> i
+                              |
+                              + -> i
+                                   |
+                                   * -> 2
+                                        |
+                                        width
+               |
+               pop -> = -> width
+                         |
+                         * -> 2
+                              |
+                              width
+          |
+          return -> A
+     |
+     func -> BottomUpMerge
+          |
+          para -> A
+               |
+               iLeft
+               |
+               iRight
+               |
+               iEnd
+               |
+               B
+          |
+          var -> i0
+          |
+          var -> i1
+          |
+          var -> j
+          |
+          pop -> = -> i0
+                    |
+                    iLeft
+          |
+          pop -> = -> i1
+                    |
+                    iRight
+          |
+          pop -> = -> j
+                    |
+                    iLeft
+          |
+          while -> < -> j
+                    |
+                    iEnd
+               |
+               if -> < -> i1
+                         |
+                         iEnd
+                    |
+                    then -> if -> && -> < -> i0
+                                        |
+                                        iRight
+                                   |
+                                   <= -> [ -> A
+                                             |
+                                             i0
+                                        |
+                                        [ -> A
+                                             |
+                                             i1
+                              |
+                              then -> pop -> = -> [ -> B
+                                                  |
+                                                  j
+                                             |
+                                             [ -> A
+                                                  |
+                                                  i0
+                                   |
+                                   pop -> = -> i0
+                                             |
+                                             + -> i0
+                                                  |
+                                                  1
+                              |
+                              pop -> = -> [ -> B
+                                             |
+                                             j
+                                        |
+                                        [ -> A
+                                             |
+                                             i1
+                              |
+                              pop -> = -> i1
+                                        |
+                                        + -> i1
+                                             |
+                                             1
+                    |
+                    pop -> = -> [ -> B
+                                   |
+                                   j
+                              |
+                              [ -> A
+                                   |
+                                   i0
+                    |
+                    pop -> = -> i0
+                              |
+                              + -> i0
+                                   |
+                                   1
+               |
+               pop -> = -> j
+                         |
+                         + -> j
+                              |
+                              1
+          |
+          return
+     |
+     func -> quickSort
+          |
+          para -> array
+               |
+               left
+               |
+               right
+          |
+          var -> temp
+          |
+          var -> p
+          |
+          var -> i
+          |
+          var -> j
+          |
+          pop -> = -> temp
+                    |
+                    [ -> array
+                         |
+                         left
+          |
+          pop -> = -> p
+                    |
+                    left
+          |
+          pop -> = -> i
+                    |
+                    left
+          |
+          pop -> = -> j
+                    |
+                    right
+          |
+          while -> <= -> i
+                    |
+                    j
+               |
+               while -> >= -> [ -> array
+                              |
+                              j
+                         |
+                         temp
+                    |
+                    pop -> = -> j
+                              |
+                              - -> j
+                                   |
+                                   1
+                    |
+                    if -> < -> j
+                              |
+                              p
+                         |
+                         then -> break
+               |
+               if -> >= -> j
+                         |
+                         p
+                    |
+                    then -> pop -> = -> [ -> array
+                                        |
+                                        p
+                                   |
+                                   [ -> array
+                                        |
+                                        j
+                         |
+                         pop -> = -> p
+                                   |
+                                   j
+               |
+               while -> <= -> [ -> array
+                              |
+                              i
+                         |
+                         temp
+                    |
+                    pop -> = -> i
+                              |
+                              + -> i
+                                   |
+                                   1
+                    |
+                    if -> > -> i
+                              |
+                              p
+                         |
+                         then -> break
+               |
+               if -> <= -> i
+                         |
+                         p
+                    |
+                    then -> pop -> = -> [ -> array
+                                        |
+                                        p
+                                   |
+                                   [ -> array
+                                        |
+                                        i
+                         |
+                         pop -> = -> p
+                                   |
+                                   i
+          |
+          pop -> = -> [ -> array
+                         |
+                         p
+                    |
+                    temp
+          |
+          if -> > -> - -> p
+                         |
+                         left
+                    |
+                    1
+               |
+               then -> pop -> call -> quickSort
+                              |
+                              array
+                              |
+                              left
+                              |
+                              - -> p
+                                   |
+                                   1
+          |
+          if -> > -> - -> right
+                         |
+                         p
+                    |
+                    1
+               |
+               then -> pop -> call -> quickSort
+                              |
+                              array
+                              |
+                              + -> p
+                                   |
+                                   1
+                              |
+                              right
+          |
+          return -> array
+------------generating...------------
+--------------byte codes---------------
+0: call 72  6  
+9: exit 
+10: push name -2  
+15: push int 1  
+20: > 
+21: ifne 62  
+26: push name -2  
+31: push name -2  
+36: push int 1  
+41: - 
+42: call 10  0  
+51: * 
+52: return 1  
+57: jump 72  
+62: push int 1  
+67: return 1  
+72: push string str
+77: = 6  
+82: = 5  
+87: = 4  
+92: pop 
+93: push int 1  
+98: push int 1  
+103: - 
+104: = 4  
+109: pop 
+110: push int 5  
+115: push float 0.000000
+121:  
+122: ; 
+123:  
+124: end 
+125: push float 0.000000
+131: push string 
+133: push float 0.000000
+139: push float 0.000000
+145: push int 8  
+150: push int 9  
+155: push int 2  
+160: vector 10  
+165: = 1  
+170: pop 
+171: push int 5  
+176: push float 0.000000
+182:  
+183: ; 
+184:  
+185: end 
+186: push float 0.000000
+192: push string 
+194: push float 0.000000
+200: push float 0.000000
+206: push int 8  
+211: push int 9  
+216: push int 2  
+221: vector 10  
+226: = 2  
+231: pop 
+232: push string  factorial(7) = 
+250: push int 7  
+255: call 10  0  
+264: native call 0  2  
+273: pop 
+274: push string str combination: str1 
+298: push string str2
+304: + 
+305: native call 0  1  
+314: pop 
+315: push int 1  
+320: push name 1  
+325: push int 1  
+330: [ 
+331: native call 1  1  
+340: []= 1  
+345: pop 
+346: push name 1  
+351: push int 1  
+356: [ 
+357: native call 0  1  
+366: pop 
+367: push int 521  
+372: native call 2  1  
+381: = 3  
+386: pop 
+387: push name 3  
+392: native call 0  1  
+401: pop 
+402: push name 1  
+407: push name 2  
+412: push int 10  
+417: call 537  1  
+426: pop 
+427: push string merge sort: vec=
+445: push name 1  
+450: push name 2  
+455: push int 10  
+460: call 654  2  
+469: native call 0  2  
+478: pop 
+479: push string quick sort: vec2=
+498: push name 2  
+503: push int 0  
+508: push int 9  
+513: call 1133  4  
+522: native call 0  2  
+531: pop 
+532: return_noval 0  
+537: push int 0  
+542: = 1  
+547: pop 
+548: push name 1  
+553: push name -2  
+558: < 
+559: ifne 608  
+564: push name 1  
+569: push name -3  
+574: push name 1  
+579: [ 
+580: []= -4  
+585: pop 
+586: push name 1  
+591: push int 1  
+596: + 
+597: = 1  
+602: pop 
+603: jump 548  
+608: return_noval 3  
+613: push name -3  
+618: push name -2  
+623: < 
+624: ifne 644  
+629: push name -3  
+634: return 2  
+639: jump 644  
+644: push name -2  
+649: return 2  
+654: push int 1  
+659: = 1  
+664: pop 
+665: push name 1  
+670: push name -2  
+675: < 
+676: ifne 864  
+681: push int 0  
+686: = 2  
+691: pop 
+692: push name 2  
+697: push name -2  
+702: < 
+703: ifne 842  
+708: push name -4  
+713: push name 2  
+718: push name 2  
+723: push name 1  
+728: + 
+729: push name -2  
+734: call 613  0  
+743: push name 2  
+748: push int 2  
+753: push name 1  
+758: * 
+759: + 
+760: push name -2  
+765: call 613  0  
+774: push name -3  
+779: call 874  3  
+788: pop 
+789: push name -4  
+794: push name -3  
+799: push name -2  
+804: call 537  1  
+813: pop 
+814: push name 2  
+819: push int 2  
+824: push name 1  
+829: * 
+830: + 
+831: = 2  
+836: pop 
+837: jump 692  
+842: push int 2  
+847: push name 1  
+852: * 
+853: = 1  
+858: pop 
+859: jump 665  
+864: push name -4  
+869: return 3  
+874: push name -5  
+879: = 1  
+884: pop 
+885: push name -4  
+890: = 2  
+895: pop 
+896: push name -5  
+901: = 3  
+906: pop 
+907: push name 3  
+912: push name -3  
+917: < 
+918: ifne 1128  
+923: push name 2  
+928: push name -3  
+933: < 
+934: ifne 1067  
+939: push name 1  
+944: push name -4  
+949: < 
+950: push name -6  
+955: push name 1  
+960: [ 
+961: push name -6  
+966: push name 2  
+971: [ 
+972: <= 
+973: && 
+974: ifne 1023  
+979: push name 3  
+984: push name -6  
+989: push name 1  
+994: [ 
+995: []= -2  
+1000: pop 
+1001: push name 1  
+1006: push int 1  
+1011: + 
+1012: = 1  
+1017: pop 
+1018: jump 1062  
+1023: push name 3  
+1028: push name -6  
+1033: push name 2  
+1038: [ 
+1039: []= -2  
+1044: pop 
+1045: push name 2  
+1050: push int 1  
+1055: + 
+1056: = 2  
+1061: pop 
+1062: jump 1106  
+1067: push name 3  
+1072: push name -6  
+1077: push name 1  
+1082: [ 
+1083: []= -2  
+1088: pop 
+1089: push name 1  
+1094: push int 1  
+1099: + 
+1100: = 1  
+1105: pop 
+1106: push name 3  
+1111: push int 1  
+1116: + 
+1117: = 3  
+1122: pop 
+1123: jump 907  
+1128: return_noval 5  
+1133: push name -4  
+1138: push name -3  
+1143: [ 
+1144: = 1  
+1149: pop 
+1150: push name -3  
+1155: = 2  
+1160: pop 
+1161: push name -3  
+1166: = 3  
+1171: pop 
+1172: push name -2  
+1177: = 4  
+1182: pop 
+1183: push name 3  
+1188: push name 4  
+1193: <= 
+1194: ifne 1454  
+1199: push name -4  
+1204: push name 4  
+1209: [ 
+1210: push name 1  
+1215: >= 
+1216: ifne 1270  
+1221: push name 4  
+1226: push int 1  
+1231: - 
+1232: = 4  
+1237: pop 
+1238: push name 4  
+1243: push name 2  
+1248: < 
+1249: ifne 1265  
+1254: jump 1270  
+1259: break 
+1260: jump 1265  
+1265: jump 1199  
+1270: push name 4  
+1275: push name 2  
+1280: >= 
+1281: ifne 1324  
+1286: push name 2  
+1291: push name -4  
+1296: push name 4  
+1301: [ 
+1302: []= -4  
+1307: pop 
+1308: push name 4  
+1313: = 2  
+1318: pop 
+1319: jump 1324  
+1324: push name -4  
+1329: push name 3  
+1334: [ 
+1335: push name 1  
+1340: <= 
+1341: ifne 1395  
+1346: push name 3  
+1351: push int 1  
+1356: + 
+1357: = 3  
+1362: pop 
+1363: push name 3  
+1368: push name 2  
+1373: > 
+1374: ifne 1390  
+1379: jump 1395  
+1384: break 
+1385: jump 1390  
+1390: jump 1324  
+1395: push name 3  
+1400: push name 2  
+1405: <= 
+1406: ifne 1449  
+1411: push name 2  
+1416: push name -4  
+1421: push name 3  
+1426: [ 
+1427: []= -4  
+1432: pop 
+1433: push name 3  
+1438: = 2  
+1443: pop 
+1444: jump 1449  
+1449: jump 1183  
+1454: push name 2  
+1459: push name 1  
+1464: []= -4  
+1469: pop 
+1470: push name 2  
+1475: push name -3  
+1480: - 
+1481: push int 1  
+1486: > 
+1487: ifne 1528  
+1492: push name -4  
+1497: push name -3  
+1502: push name 2  
+1507: push int 1  
+1512: - 
+1513: call 1133  4  
+1522: pop 
+1523: jump 1528  
+1528: push name -2  
+1533: push name 2  
+1538: - 
+1539: push int 1  
+1544: > 
+1545: ifne 1586  
+1550: push name -4  
+1555: push name 2  
+1560: push int 1  
+1565: + 
+1566: push name -2  
+1571: call 1133  4  
+1580: pop 
+1581: jump 1586  
+1586: push name -4  
+1591: return 3  
+---------------run time---------------
